@@ -93,7 +93,7 @@ export default function Simulator() {
         {/* PDF Viewer Area */}
         <main className="sim-main-pdf">
           <iframe 
-            src={`/examenes/Examen No${examNumber}.pdf#view=FitH`} 
+            src={`${import.meta.env.BASE_URL}examenes/Examen No${examNumber}.pdf#view=FitH`} 
             className="pdf-viewer"
             title="Examen Original"
           />

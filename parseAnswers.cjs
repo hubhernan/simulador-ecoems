@@ -15,9 +15,9 @@ function extractAnswers(filename) {
 }
 
 const ans1 = extractAnswers('resp1.txt');
-const ans4 = extractAnswers('resp4.txt');
-const ans2 = ans1; // Placeholder
-const ans3 = ans1; // Placeholder
+const ans4 = extractAnswers('resp4_clean.txt');
+const ans2 = extractAnswers('resp2.txt');
+const ans3 = extractAnswers('resp3.txt');
 
 const subjects = [
     { name: 'Habilidad matemática', count: 16 },

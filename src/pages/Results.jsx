@@ -1,86 +1,113 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { CheckCircle, Target, ArrowRight, BarChart2, TrendingUp } from 'lucide-react';
 import { exams } from '../data/mockData';
 import { answerKeys } from '../data/answers';
+import { supabase } from '../lib/supabase';
+import { useAuth } from '../context/AuthContext';
 
 export default function Results() {
   const { attemptId } = useParams();
   const [result, setResult] = useState(null);
+  const { user } = useAuth();
+  const hasSaved = useRef(false);
 
   useEffect(() => {
-    try {
-      const attemptData = JSON.parse(localStorage.getItem('latest_attempt'));
-      if (!attemptData) return;
+    const processResult = async () => {
+      try {
+        const attemptData = JSON.parse(localStorage.getItem('latest_attempt'));
+        if (!attemptData) return;
 
-      const exam = exams.find(e => e.examId === attemptData.examId);
-      const examKey = answerKeys[attemptData.examId];
-      if (!exam || !examKey) return;
+        const exam = exams.find(e => e.examId === attemptData.examId);
+        const examKey = answerKeys[attemptData.examId];
+        if (!exam || !examKey) return;
 
-      let score = 0;
-      const subjectStats = {};
+        let score = 0;
+        const subjectStats = {};
 
-      for (let i = 1; i <= exam.totalPreguntas; i++) {
-        const keyInfo = examKey[i];
-        if (!keyInfo) continue;
-        
-        if (!subjectStats[keyInfo.subject]) {
-          subjectStats[keyInfo.subject] = { name: keyInfo.subject, score: 0, total: 0 };
+        for (let i = 1; i <= exam.totalPreguntas; i++) {
+          const keyInfo = examKey[i];
+          if (!keyInfo) continue;
+          
+          if (!subjectStats[keyInfo.subject]) {
+            subjectStats[keyInfo.subject] = { name: keyInfo.subject, score: 0, total: 0 };
+          }
+          
+          subjectStats[keyInfo.subject].total += 1;
+          
+          if (attemptData.answers[i] === keyInfo.correct) {
+            score += 1;
+            subjectStats[keyInfo.subject].score += 1;
+          }
         }
-        
-        subjectStats[keyInfo.subject].total += 1;
-        
-        if (attemptData.answers[i] === keyInfo.correct) {
-          score += 1;
-          subjectStats[keyInfo.subject].score += 1;
+
+        const areas = Object.values(subjectStats).map(area => {
+          const percent = Math.round((area.score / area.total) * 100);
+          let status = 'Rojo';
+          let bgClass = 'var(--danger-light)'; // Actually we need to define danger in global.css if not there, but we can use #fef2f2 / #ef4444
+          let colorVar = '#ef4444'; 
+
+          if (percent >= 90) {
+            status = 'Verde';
+            bgClass = 'var(--success-light)';
+            colorVar = 'var(--success)';
+          } else if (percent >= 75) {
+            status = 'Amarillo';
+            bgClass = 'var(--warning-light)';
+            colorVar = 'var(--warning)';
+          }
+
+          return {
+            ...area,
+            percent,
+            status,
+            bgClass,
+            colorVar
+          };
+        });
+
+        // Sort descending
+        areas.sort((a, b) => b.percent - a.percent);
+
+        const h = Math.floor(attemptData.timeSpent / 3600);
+        const m = Math.floor((attemptData.timeSpent % 3600) / 60);
+        const s = attemptData.timeSpent % 60;
+        const timeUsed = `${h.toString().padStart(2, '0')}:${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+
+        setResult({
+          examName: exam.nombre,
+          score,
+          total: exam.totalPreguntas,
+          percent: Math.round((score / exam.totalPreguntas) * 100),
+          timeUsed,
+          areas
+        });
+
+        // Save to Supabase if not already saved and user is logged in
+        if (!hasSaved.current && user) {
+          hasSaved.current = true;
+          
+          // Check if this specific attemptId has already been saved to avoid duplicates
+          // We can just rely on the ref for the current session, but ideally attemptId would be a uuid
+          const { error } = await supabase.from('exam_results').insert({
+            user_id: user.id,
+            exam_id: attemptData.examId,
+            score,
+            time_spent: attemptData.timeSpent,
+            answers: attemptData.answers
+          });
+
+          if (error) {
+            console.error('Error al guardar el resultado en Supabase:', error);
+          }
         }
+      } catch (e) {
+        console.error(e);
       }
-
-      const areas = Object.values(subjectStats).map(area => {
-        const percent = Math.round((area.score / area.total) * 100);
-        let status = 'Rojo';
-        let bgClass = 'var(--danger-light)'; // Actually we need to define danger in global.css if not there, but we can use #fef2f2 / #ef4444
-        let colorVar = '#ef4444'; 
-
-        if (percent >= 90) {
-          status = 'Verde';
-          bgClass = 'var(--success-light)';
-          colorVar = 'var(--success)';
-        } else if (percent >= 75) {
-          status = 'Amarillo';
-          bgClass = 'var(--warning-light)';
-          colorVar = 'var(--warning)';
-        }
-
-        return {
-          ...area,
-          percent,
-          status,
-          bgClass,
-          colorVar
-        };
-      });
-
-      // Sort descending
-      areas.sort((a, b) => b.percent - a.percent);
-
-      const h = Math.floor(attemptData.timeSpent / 3600);
-      const m = Math.floor((attemptData.timeSpent % 3600) / 60);
-      const s = attemptData.timeSpent % 60;
-      const timeUsed = `${h.toString().padStart(2, '0')}:${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
-
-      setResult({
-        examName: exam.nombre,
-        score,
-        total: exam.totalPreguntas,
-        percent: Math.round((score / exam.totalPreguntas) * 100),
-        timeUsed,
-        areas
-      });
-    } catch (e) {
-      console.error(e);
-    }
-  }, [attemptId]);
+    };
+    
+    processResult();
+  }, [attemptId, user]);
 
   if (!result) return <div style={{padding: '4rem', textAlign: 'center'}}>Cargando resultados o intento no encontrado...</div>;
 
