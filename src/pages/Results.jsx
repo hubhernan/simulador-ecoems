@@ -1,23 +1,91 @@
+import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { CheckCircle, XCircle, Clock, Target, ArrowRight, BarChart2, TrendingUp } from 'lucide-react';
+import { CheckCircle, Target, ArrowRight, BarChart2, TrendingUp } from 'lucide-react';
+import { exams } from '../data/mockData';
+import { answerKeys } from '../data/answers';
 
 export default function Results() {
   const { attemptId } = useParams();
-  
-  // Fake data for the result
-  const result = {
-    examName: 'Examen Tipo A',
-    score: 82,
-    total: 128,
-    percent: Math.round((82/128)*100),
-    timeUsed: '02:31:44',
-    areas: [
-      { name: 'Matemáticas', score: 15, total: 32, percent: Math.round((15/32)*100), status: 'Reforzar' },
-      { name: 'Español', score: 25, total: 32, percent: Math.round((25/32)*100), status: 'Fuerte' },
-      { name: 'Ciencias', score: 18, total: 32, percent: Math.round((18/32)*100), status: 'Reforzar' },
-      { name: 'Historia', score: 24, total: 32, percent: Math.round((24/32)*100), status: 'Fuerte' }
-    ]
-  };
+  const [result, setResult] = useState(null);
+
+  useEffect(() => {
+    try {
+      const attemptData = JSON.parse(localStorage.getItem('latest_attempt'));
+      if (!attemptData) return;
+
+      const exam = exams.find(e => e.examId === attemptData.examId);
+      const examKey = answerKeys[attemptData.examId];
+      if (!exam || !examKey) return;
+
+      let score = 0;
+      const subjectStats = {};
+
+      for (let i = 1; i <= exam.totalPreguntas; i++) {
+        const keyInfo = examKey[i];
+        if (!keyInfo) continue;
+        
+        if (!subjectStats[keyInfo.subject]) {
+          subjectStats[keyInfo.subject] = { name: keyInfo.subject, score: 0, total: 0 };
+        }
+        
+        subjectStats[keyInfo.subject].total += 1;
+        
+        if (attemptData.answers[i] === keyInfo.correct) {
+          score += 1;
+          subjectStats[keyInfo.subject].score += 1;
+        }
+      }
+
+      const areas = Object.values(subjectStats).map(area => {
+        const percent = Math.round((area.score / area.total) * 100);
+        let status = 'Rojo';
+        let bgClass = 'var(--danger-light)'; // Actually we need to define danger in global.css if not there, but we can use #fef2f2 / #ef4444
+        let colorVar = '#ef4444'; 
+
+        if (percent >= 90) {
+          status = 'Verde';
+          bgClass = 'var(--success-light)';
+          colorVar = 'var(--success)';
+        } else if (percent >= 75) {
+          status = 'Amarillo';
+          bgClass = 'var(--warning-light)';
+          colorVar = 'var(--warning)';
+        }
+
+        return {
+          ...area,
+          percent,
+          status,
+          bgClass,
+          colorVar
+        };
+      });
+
+      // Sort descending
+      areas.sort((a, b) => b.percent - a.percent);
+
+      const h = Math.floor(attemptData.timeSpent / 3600);
+      const m = Math.floor((attemptData.timeSpent % 3600) / 60);
+      const s = attemptData.timeSpent % 60;
+      const timeUsed = `${h.toString().padStart(2, '0')}:${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+
+      setResult({
+        examName: exam.nombre,
+        score,
+        total: exam.totalPreguntas,
+        percent: Math.round((score / exam.totalPreguntas) * 100),
+        timeUsed,
+        areas
+      });
+    } catch (e) {
+      console.error(e);
+    }
+  }, [attemptId]);
+
+  if (!result) return <div style={{padding: '4rem', textAlign: 'center'}}>Cargando resultados o intento no encontrado...</div>;
+
+  const fuertes = result.areas.filter(a => a.percent >= 90);
+  const mejorar = result.areas.filter(a => a.percent < 90);
 
   return (
     <div className="flex-col gap-4" style={{maxWidth: '900px', margin: '0 auto'}}>
@@ -34,8 +102,8 @@ export default function Results() {
             <span className="stat-value" style={{fontSize: '2rem', color: 'var(--primary)'}}>{result.score}/{result.total}</span>
           </div>
           <div className="stat-card" style={{flexDirection: 'column', textAlign: 'center', padding: '1.5rem'}}>
-            <span className="stat-label">Porcentaje</span>
-            <span className="stat-value" style={{fontSize: '2rem', color: 'var(--success)'}}>{result.percent}%</span>
+            <span className="stat-label">Porcentaje global</span>
+            <span className="stat-value" style={{fontSize: '2rem', color: result.percent >= 75 ? 'var(--success)' : '#ef4444'}}>{result.percent}%</span>
           </div>
           <div className="stat-card" style={{flexDirection: 'column', textAlign: 'center', padding: '1.5rem'}}>
             <span className="stat-label">Tiempo usado</span>
@@ -45,22 +113,28 @@ export default function Results() {
 
         <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem', textAlign: 'left', marginBottom: '3rem'}}>
           <div className="card" style={{background: 'var(--bg-main)'}}>
-            <h3 className="flex-row gap-1 text-success mb-2"><TrendingUp size={20}/> Tus mejores áreas</h3>
-            {result.areas.filter(a => a.status === 'Fuerte').map(a => (
+            <h3 className="flex-row gap-1 text-success mb-2"><TrendingUp size={20}/> Áreas Dominadas (90-100%)</h3>
+            {fuertes.map(a => (
               <div key={a.name} className="flex-row justify-between" style={{padding: '0.5rem 0', borderBottom: '1px solid var(--border-light)'}}>
                 <span>{a.name}</span>
-                <span className="badge" style={{background: 'var(--success-light)', color: 'var(--success)'}}>{a.percent}%</span>
+                <span className="badge" style={{background: a.bgClass, color: a.colorVar}}>{a.percent}% ({a.score}/{a.total})</span>
               </div>
             ))}
+            {fuertes.length === 0 && (
+              <div className="text-secondary text-center" style={{padding: '1rem'}}>Aún no hay áreas dominadas. ¡Sigue practicando!</div>
+            )}
           </div>
           <div className="card" style={{background: 'var(--bg-main)'}}>
-            <h3 className="flex-row gap-1 text-warning mb-2"><Target size={20}/> Áreas a reforzar</h3>
-            {result.areas.filter(a => a.status === 'Reforzar').map(a => (
+            <h3 className="flex-row gap-1 text-warning mb-2"><Target size={20}/> Áreas de Oportunidad</h3>
+            {mejorar.map(a => (
               <div key={a.name} className="flex-row justify-between" style={{padding: '0.5rem 0', borderBottom: '1px solid var(--border-light)'}}>
                 <span>{a.name}</span>
-                <span className="badge" style={{background: 'var(--warning-light)', color: 'var(--warning)'}}>{a.percent}%</span>
+                <span className="badge" style={{background: a.bgClass, color: a.colorVar}}>{a.percent}% ({a.score}/{a.total})</span>
               </div>
             ))}
+            {mejorar.length === 0 && (
+              <div className="text-success text-center" style={{padding: '1rem'}}>¡Excelente! Tienes dominio total en todas las áreas.</div>
+            )}
           </div>
         </div>
 
