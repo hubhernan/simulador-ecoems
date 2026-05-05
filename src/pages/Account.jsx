@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { User, Save, Mail, Calendar, Shield } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { supabase } from '../lib/supabase';
-import '../styles/Dashboard.css';
 
 export default function Account() {
   const { user } = useAuth();
