@@ -10,6 +10,7 @@ import Results from './pages/Results';
 import History from './pages/History';
 import Dashboard from './pages/Dashboard';
 import Auth from './pages/Auth';
+import Account from './pages/Account';
 
 function App() {
   return (
@@ -41,6 +42,11 @@ function App() {
               <Route path="/dashboard" element={
                 <ProtectedRoute>
                   <Dashboard />
+                </ProtectedRoute>
+              } />
+              <Route path="/cuenta" element={
+                <ProtectedRoute>
+                  <Account />
                 </ProtectedRoute>
               } />
             </Routes>

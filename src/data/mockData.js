@@ -58,6 +58,66 @@ export const exams = [
       { sectionId: 'sec-3', nombre: 'Ciencias', numPreguntas: 32 },
       { sectionId: 'sec-4', nombre: 'Historia', numPreguntas: 32 }
     ]
+  },
+  {
+    examId: 'exam-5',
+    nombre: 'Examen Tipo E (No. 5)',
+    descripcion: 'Simulación completa basada en el Examen No. 5 original.',
+    duracionMaxima: 180 * 60,
+    totalPreguntas: 128,
+    totalSecciones: 4,
+    intentos: 0,
+    secciones: [
+      { sectionId: 'sec-1', nombre: 'Matemáticas', numPreguntas: 32 },
+      { sectionId: 'sec-2', nombre: 'Español', numPreguntas: 32 },
+      { sectionId: 'sec-3', nombre: 'Ciencias', numPreguntas: 32 },
+      { sectionId: 'sec-4', nombre: 'Historia', numPreguntas: 32 }
+    ]
+  },
+  {
+    examId: 'exam-6',
+    nombre: 'Examen Tipo F (No. 6)',
+    descripcion: 'Evaluación de preparación basada en el Examen No. 6 original.',
+    duracionMaxima: 180 * 60,
+    totalPreguntas: 128,
+    totalSecciones: 4,
+    intentos: 0,
+    secciones: [
+      { sectionId: 'sec-1', nombre: 'Matemáticas', numPreguntas: 32 },
+      { sectionId: 'sec-2', nombre: 'Español', numPreguntas: 32 },
+      { sectionId: 'sec-3', nombre: 'Ciencias', numPreguntas: 32 },
+      { sectionId: 'sec-4', nombre: 'Historia', numPreguntas: 32 }
+    ]
+  },
+  {
+    examId: 'exam-7',
+    nombre: 'Examen Tipo G (No. 7)',
+    descripcion: 'Prueba general para evaluar conocimientos (Examen No. 7).',
+    duracionMaxima: 180 * 60,
+    totalPreguntas: 128,
+    totalSecciones: 4,
+    intentos: 0,
+    secciones: [
+      { sectionId: 'sec-1', nombre: 'Matemáticas', numPreguntas: 32 },
+      { sectionId: 'sec-2', nombre: 'Español', numPreguntas: 32 },
+      { sectionId: 'sec-3', nombre: 'Ciencias', numPreguntas: 32 },
+      { sectionId: 'sec-4', nombre: 'Historia', numPreguntas: 32 }
+    ]
+  },
+  {
+    examId: 'exam-8',
+    nombre: 'Examen Tipo H (No. 8)',
+    descripcion: 'Simulacro de admisión basado en el Examen No. 8 original.',
+    duracionMaxima: 180 * 60,
+    totalPreguntas: 128,
+    totalSecciones: 4,
+    intentos: 0,
+    secciones: [
+      { sectionId: 'sec-1', nombre: 'Matemáticas', numPreguntas: 32 },
+      { sectionId: 'sec-2', nombre: 'Español', numPreguntas: 32 },
+      { sectionId: 'sec-3', 'nombre': 'Ciencias', numPreguntas: 32 },
+      { sectionId: 'sec-4', nombre: 'Historia', numPreguntas: 32 }
+    ]
   }
 ];
 

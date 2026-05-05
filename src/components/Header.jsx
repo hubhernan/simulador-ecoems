@@ -77,7 +77,7 @@ export default function Header() {
                       <span className="text-muted" style={{fontSize: '0.8rem'}}>Cuenta Premium ECOEMS</span>
                     </div>
                     <div className="dropdown-divider"></div>
-                    <button className="dropdown-item" onClick={() => alert('¡Próximamente! Esta función se activará en la siguiente actualización.')}><User size={16}/> <span>Mi Cuenta</span></button>
+                    <Link to="/cuenta" className="dropdown-item" onClick={() => setOpenDropdown(null)}><User size={16}/> <span>Mi Cuenta</span></Link>
                     <button className="dropdown-item" onClick={() => alert('¡Próximamente! Esta función se activará en la siguiente actualización.')}><Target size={16}/> <span>Mis Metas de Estudio</span></button>
                     <button className="dropdown-item" onClick={() => alert('¡Próximamente! Esta función se activará en la siguiente actualización.')}><Award size={16}/> <span>Insignias y Logros</span></button>
                     <div className="dropdown-divider"></div>

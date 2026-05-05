@@ -24,6 +24,8 @@ export default function Results() {
 
         let score = 0;
         const subjectStats = {};
+        const correctList = [];
+        const incorrectList = [];
 
         for (let i = 1; i <= exam.totalPreguntas; i++) {
           const keyInfo = examKey[i];
@@ -38,6 +40,9 @@ export default function Results() {
           if (attemptData.answers[i] === keyInfo.correct) {
             score += 1;
             subjectStats[keyInfo.subject].score += 1;
+            correctList.push({ num: i, subject: keyInfo.subject, ans: attemptData.answers[i] });
+          } else {
+            incorrectList.push({ num: i, subject: keyInfo.subject, ans: attemptData.answers[i] || '-', correct: keyInfo.correct });
           }
         }
 
@@ -80,7 +85,9 @@ export default function Results() {
           total: exam.totalPreguntas,
           percent: Math.round((score / exam.totalPreguntas) * 100),
           timeUsed,
-          areas
+          areas,
+          correctList,
+          incorrectList
         });
 
         // Save to Supabase if not already saved and user is logged in
@@ -161,6 +168,42 @@ export default function Results() {
             ))}
             {mejorar.length === 0 && (
               <div className="text-success text-center" style={{padding: '1rem'}}>¡Excelente! Tienes dominio total en todas las áreas.</div>
+            )}
+          </div>
+        </div>
+
+        <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem', textAlign: 'left', marginBottom: '3rem'}}>
+          <div className="card" style={{background: 'var(--bg-main)', maxHeight: '400px', overflowY: 'auto'}}>
+            <h3 className="flex-row gap-1 text-success mb-2"><CheckCircle size={20}/> Correctas ({result.correctList.length})</h3>
+            <div style={{display: 'flex', flexDirection: 'column', gap: '0.5rem'}}>
+              {result.correctList.map(item => (
+                <div key={`c-${item.num}`} className="flex-row justify-between" style={{padding: '0.5rem', background: 'var(--success-light)', borderRadius: '8px', fontSize: '0.9rem'}}>
+                  <span><strong>{item.num}.</strong> {item.subject}</span>
+                  <span style={{fontWeight: 'bold', color: 'var(--success)'}}>Respuesta: {item.ans}</span>
+                </div>
+              ))}
+            </div>
+            {result.correctList.length === 0 && (
+              <div className="text-secondary text-center" style={{padding: '1rem'}}>No hay respuestas correctas registradas.</div>
+            )}
+          </div>
+          <div className="card" style={{background: 'var(--bg-main)', maxHeight: '400px', overflowY: 'auto'}}>
+            <h3 className="flex-row gap-1 text-danger mb-2"><Target size={20}/> Incorrectas ({result.incorrectList.length})</h3>
+            <div style={{display: 'flex', flexDirection: 'column', gap: '0.5rem'}}>
+              {result.incorrectList.map(item => (
+                <div key={`i-${item.num}`} className="flex-col" style={{padding: '0.5rem', background: '#fef2f2', border: '1px solid #fecaca', borderRadius: '8px', fontSize: '0.9rem'}}>
+                  <div className="flex-row justify-between mb-1">
+                    <span><strong>{item.num}.</strong> {item.subject}</span>
+                  </div>
+                  <div className="flex-row justify-between text-secondary" style={{fontSize: '0.85rem'}}>
+                    <span>Tu respuesta: <strong style={{color: '#ef4444'}}>{item.ans}</strong></span>
+                    <span>Correcta: <strong style={{color: 'var(--success)'}}>{item.correct}</strong></span>
+                  </div>
+                </div>
+              ))}
+            </div>
+            {result.incorrectList.length === 0 && (
+              <div className="text-success text-center" style={{padding: '1rem'}}>¡Perfecto! No tuviste respuestas incorrectas.</div>
             )}
           </div>
         </div>
