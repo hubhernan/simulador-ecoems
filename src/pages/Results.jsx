@@ -191,7 +191,7 @@ export default function Results() {
             <h3 className="flex-row gap-1 text-danger mb-2"><Target size={20}/> Incorrectas ({result.incorrectList.length})</h3>
             <div style={{display: 'flex', flexDirection: 'column', gap: '0.5rem'}}>
               {result.incorrectList.map(item => (
-                <div key={`i-${item.num}`} className="flex-col" style={{padding: '0.5rem', background: '#fef2f2', border: '1px solid #fecaca', borderRadius: '8px', fontSize: '0.9rem'}}>
+                <div key={`i-${item.num}`} className="flex-col" style={{padding: '0.5rem', background: 'var(--danger-light)', borderRadius: '8px', fontSize: '0.9rem'}}>
                   <div style={{marginBottom: '4px'}}>
                     <span><strong>Pregunta {item.num}</strong> - {item.subject}</span>
                   </div>
