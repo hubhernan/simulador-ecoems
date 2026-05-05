@@ -178,7 +178,7 @@ export default function Results() {
             <div style={{display: 'flex', flexDirection: 'column', gap: '0.5rem'}}>
               {result.correctList.map(item => (
                 <div key={`c-${item.num}`} className="flex-row justify-between" style={{padding: '0.5rem', background: 'var(--success-light)', borderRadius: '8px', fontSize: '0.9rem'}}>
-                  <span><strong>Reactivo {item.num}</strong> - {item.subject}</span>
+                  <span><strong>Pregunta {item.num}</strong> - {item.subject}</span>
                   <span style={{fontWeight: 'bold', color: 'var(--success)'}}>Respuesta: {item.ans}</span>
                 </div>
               ))}
@@ -192,8 +192,8 @@ export default function Results() {
             <div style={{display: 'flex', flexDirection: 'column', gap: '0.5rem'}}>
               {result.incorrectList.map(item => (
                 <div key={`i-${item.num}`} className="flex-col" style={{padding: '0.5rem', background: '#fef2f2', border: '1px solid #fecaca', borderRadius: '8px', fontSize: '0.9rem'}}>
-                  <div className="flex-row justify-between mb-1">
-                    <span><strong>Reactivo {item.num}</strong> - {item.subject}</span>
+                  <div style={{marginBottom: '4px'}}>
+                    <span><strong>Pregunta {item.num}</strong> - {item.subject}</span>
                   </div>
                   <div className="flex-row justify-between text-secondary" style={{fontSize: '0.85rem'}}>
                     <span>Tu respuesta: <strong style={{color: '#ef4444'}}>{item.ans}</strong></span>
