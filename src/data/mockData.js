@@ -118,6 +118,51 @@ export const exams = [
       { sectionId: 'sec-3', 'nombre': 'Ciencias', numPreguntas: 32 },
       { sectionId: 'sec-4', nombre: 'Historia', numPreguntas: 32 }
     ]
+  },
+  {
+    examId: 'exam-9',
+    nombre: 'Examen Tipo I (No. 9)',
+    descripcion: 'Simulacro de admisión basado en el Examen No. 9 original.',
+    duracionMaxima: 180 * 60,
+    totalPreguntas: 128,
+    totalSecciones: 4,
+    intentos: 0,
+    secciones: [
+      { sectionId: 'sec-1', nombre: 'Matemáticas', numPreguntas: 32 },
+      { sectionId: 'sec-2', nombre: 'Español', numPreguntas: 32 },
+      { sectionId: 'sec-3', 'nombre': 'Ciencias', numPreguntas: 32 },
+      { sectionId: 'sec-4', nombre: 'Historia', numPreguntas: 32 }
+    ]
+  },
+  {
+    examId: 'exam-10',
+    nombre: 'Examen Tipo J (No. 10)',
+    descripcion: 'Simulacro de admisión basado en el Examen No. 10 original.',
+    duracionMaxima: 180 * 60,
+    totalPreguntas: 128,
+    totalSecciones: 4,
+    intentos: 0,
+    secciones: [
+      { sectionId: 'sec-1', nombre: 'Matemáticas', numPreguntas: 32 },
+      { sectionId: 'sec-2', nombre: 'Español', numPreguntas: 32 },
+      { sectionId: 'sec-3', 'nombre': 'Ciencias', numPreguntas: 32 },
+      { sectionId: 'sec-4', nombre: 'Historia', numPreguntas: 32 }
+    ]
+  },
+  {
+    examId: 'exam-11',
+    nombre: 'Examen Tipo K (No. 11)',
+    descripcion: 'Simulacro de admisión basado en el Examen No. 11 original.',
+    duracionMaxima: 180 * 60,
+    totalPreguntas: 128,
+    totalSecciones: 4,
+    intentos: 0,
+    secciones: [
+      { sectionId: 'sec-1', nombre: 'Matemáticas', numPreguntas: 32 },
+      { sectionId: 'sec-2', nombre: 'Español', numPreguntas: 32 },
+      { sectionId: 'sec-3', 'nombre': 'Ciencias', numPreguntas: 32 },
+      { sectionId: 'sec-4', nombre: 'Historia', numPreguntas: 32 }
+    ]
   }
 ];
 
@@ -127,3 +172,4 @@ export const userProgress = {
   averageScore: 78,
   lastTime: '2:31:44'
 };
+// Updated with exams 9, 10, 11

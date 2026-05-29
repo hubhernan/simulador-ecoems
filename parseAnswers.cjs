@@ -22,6 +22,9 @@ const ans5 = extractAnswers('resp5_clean.txt');
 const ans6 = extractAnswers('resp6_clean.txt');
 const ans7 = extractAnswers('resp7_clean.txt');
 const ans8 = extractAnswers('resp8_clean.txt');
+const ans9 = extractAnswers('resp9_clean.txt');
+const ans10 = extractAnswers('resp10_clean.txt');
+const ans11 = extractAnswers('resp11_clean.txt');
 
 const subjects = [
     { name: 'Habilidad matemática', count: 16 },
@@ -61,6 +64,9 @@ const db = {
     'exam-6': generateDetailedAnswers(ans6),
     'exam-7': generateDetailedAnswers(ans7),
     'exam-8': generateDetailedAnswers(ans8),
+    'exam-9': generateDetailedAnswers(ans9),
+    'exam-10': generateDetailedAnswers(ans10),
+    'exam-11': generateDetailedAnswers(ans11),
 };
 
 fs.writeFileSync('src/data/answers.js', `export const answerKeys = ${JSON.stringify(db, null, 2)};`);

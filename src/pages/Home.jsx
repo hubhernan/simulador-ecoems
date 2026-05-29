@@ -93,7 +93,7 @@ export default function Home() {
       {/* Available Exams Section */}
       <section className="exams-section">
         <div className="section-header flex-row justify-between">
-          <h2>Tus exámenes disponibles</h2>
+          <h2>Tus exámenes disponibles ({exams.length})</h2>
           <Link to="/exams" className="btn btn-outline btn-sm">Ver todos <ArrowRight size={16}/></Link>
         </div>
         

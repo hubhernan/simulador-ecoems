@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://hubhernan.github.io/simulador-ecoems",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
