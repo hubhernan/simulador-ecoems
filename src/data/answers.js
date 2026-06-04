@@ -9,15 +9,15 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "3": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "4": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "5": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "6": {
@@ -29,15 +29,15 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "8": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "9": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "10": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "11": {
@@ -45,7 +45,7 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "12": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "13": {
@@ -53,15 +53,15 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "14": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "15": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "16": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "17": {
@@ -73,15 +73,15 @@ export const answerKeys = {
       "subject": "Biología"
     },
     "19": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "20": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "21": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "22": {
@@ -89,19 +89,19 @@ export const answerKeys = {
       "subject": "Biología"
     },
     "23": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Biología"
     },
     "24": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "25": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Biología"
     },
     "26": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Biología"
     },
     "27": {
@@ -117,15 +117,15 @@ export const answerKeys = {
       "subject": "Español"
     },
     "30": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Español"
     },
     "31": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Español"
     },
     "32": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "33": {
@@ -137,11 +137,11 @@ export const answerKeys = {
       "subject": "Español"
     },
     "35": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "36": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Español"
     },
     "37": {
@@ -149,15 +149,15 @@ export const answerKeys = {
       "subject": "Español"
     },
     "38": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "39": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Español"
     },
     "40": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Español"
     },
     "41": {
@@ -173,19 +173,19 @@ export const answerKeys = {
       "subject": "Química"
     },
     "44": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Química"
     },
     "45": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "46": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Química"
     },
     "47": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Química"
     },
     "48": {
@@ -193,11 +193,11 @@ export const answerKeys = {
       "subject": "Química"
     },
     "49": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "50": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "51": {
@@ -205,23 +205,23 @@ export const answerKeys = {
       "subject": "Química"
     },
     "52": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Química"
     },
     "53": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia universal"
     },
     "54": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia universal"
     },
     "55": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia universal"
     },
     "56": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia universal"
     },
     "57": {
@@ -229,7 +229,7 @@ export const answerKeys = {
       "subject": "Historia universal"
     },
     "58": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia universal"
     },
     "59": {
@@ -237,7 +237,7 @@ export const answerKeys = {
       "subject": "Historia de México"
     },
     "60": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia de México"
     },
     "61": {
@@ -245,27 +245,27 @@ export const answerKeys = {
       "subject": "Historia de México"
     },
     "62": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia de México"
     },
     "63": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia de México"
     },
     "64": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia de México"
     },
     "65": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "66": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "67": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "68": {
@@ -273,23 +273,23 @@ export const answerKeys = {
       "subject": "Matemáticas"
     },
     "69": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "70": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "71": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "72": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "73": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "74": {
@@ -301,15 +301,15 @@ export const answerKeys = {
       "subject": "Matemáticas"
     },
     "76": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "77": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "78": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "79": {
@@ -317,7 +317,7 @@ export const answerKeys = {
       "subject": "Habilidad verbal"
     },
     "80": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "81": {
@@ -333,19 +333,19 @@ export const answerKeys = {
       "subject": "Habilidad verbal"
     },
     "84": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "85": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "86": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "87": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "88": {
@@ -353,11 +353,11 @@ export const answerKeys = {
       "subject": "Habilidad verbal"
     },
     "89": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "90": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "91": {
@@ -365,11 +365,11 @@ export const answerKeys = {
       "subject": "Habilidad verbal"
     },
     "92": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "93": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Geografía"
     },
     "94": {
@@ -377,35 +377,35 @@ export const answerKeys = {
       "subject": "Geografía"
     },
     "95": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Geografía"
     },
     "96": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "97": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "98": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "99": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "100": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Geografía"
     },
     "101": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "102": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Geografía"
     },
     "103": {
@@ -421,23 +421,23 @@ export const answerKeys = {
       "subject": "Física"
     },
     "106": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "107": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Física"
     },
     "108": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Física"
     },
     "109": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "110": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "111": {
@@ -445,27 +445,27 @@ export const answerKeys = {
       "subject": "Física"
     },
     "112": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "113": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "114": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Física"
     },
     "115": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Física"
     },
     "116": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "117": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "118": {
@@ -477,11 +477,11 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "120": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "121": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Formación cívica y ética"
     },
     "122": {
@@ -489,15 +489,15 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "123": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Formación cívica y ética"
     },
     "124": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Formación cívica y ética"
     },
     "125": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "126": {
@@ -509,7 +509,7 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "128": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     }
   },
@@ -519,23 +519,23 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "2": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "3": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "4": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "5": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "6": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "7": {
@@ -547,7 +547,7 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "9": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "10": {
@@ -559,7 +559,7 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "12": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "13": {
@@ -567,11 +567,11 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "14": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "15": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "16": {
@@ -587,15 +587,15 @@ export const answerKeys = {
       "subject": "Biología"
     },
     "19": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "20": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Biología"
     },
     "21": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "22": {
@@ -607,19 +607,19 @@ export const answerKeys = {
       "subject": "Biología"
     },
     "24": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "25": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Biología"
     },
     "26": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Biología"
     },
     "27": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Biología"
     },
     "28": {
@@ -631,15 +631,15 @@ export const answerKeys = {
       "subject": "Español"
     },
     "30": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Español"
     },
     "31": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "32": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "33": {
@@ -647,27 +647,27 @@ export const answerKeys = {
       "subject": "Español"
     },
     "34": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Español"
     },
     "35": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Español"
     },
     "36": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Español"
     },
     "37": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Español"
     },
     "38": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "39": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Español"
     },
     "40": {
@@ -675,15 +675,15 @@ export const answerKeys = {
       "subject": "Español"
     },
     "41": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "42": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Química"
     },
     "43": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Química"
     },
     "44": {
@@ -691,15 +691,15 @@ export const answerKeys = {
       "subject": "Química"
     },
     "45": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Química"
     },
     "46": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Química"
     },
     "47": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "48": {
@@ -707,11 +707,11 @@ export const answerKeys = {
       "subject": "Química"
     },
     "49": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "50": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "51": {
@@ -719,7 +719,7 @@ export const answerKeys = {
       "subject": "Química"
     },
     "52": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "53": {
@@ -727,7 +727,7 @@ export const answerKeys = {
       "subject": "Historia universal"
     },
     "54": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia universal"
     },
     "55": {
@@ -735,35 +735,35 @@ export const answerKeys = {
       "subject": "Historia universal"
     },
     "56": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia universal"
     },
     "57": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia universal"
     },
     "58": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia universal"
     },
     "59": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia de México"
     },
     "60": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia de México"
     },
     "61": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia de México"
     },
     "62": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia de México"
     },
     "63": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia de México"
     },
     "64": {
@@ -771,11 +771,11 @@ export const answerKeys = {
       "subject": "Historia de México"
     },
     "65": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "66": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "67": {
@@ -783,15 +783,15 @@ export const answerKeys = {
       "subject": "Matemáticas"
     },
     "68": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "69": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "70": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "71": {
@@ -799,23 +799,23 @@ export const answerKeys = {
       "subject": "Matemáticas"
     },
     "72": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "73": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "74": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "75": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "76": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "77": {
@@ -827,15 +827,15 @@ export const answerKeys = {
       "subject": "Habilidad verbal"
     },
     "79": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "80": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "81": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "82": {
@@ -843,23 +843,23 @@ export const answerKeys = {
       "subject": "Habilidad verbal"
     },
     "83": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "84": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "85": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "86": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "87": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "88": {
@@ -879,15 +879,15 @@ export const answerKeys = {
       "subject": "Habilidad verbal"
     },
     "92": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "93": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "94": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "95": {
@@ -895,15 +895,15 @@ export const answerKeys = {
       "subject": "Geografía"
     },
     "96": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Geografía"
     },
     "97": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "98": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Geografía"
     },
     "99": {
@@ -911,11 +911,11 @@ export const answerKeys = {
       "subject": "Geografía"
     },
     "100": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "101": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "102": {
@@ -923,11 +923,11 @@ export const answerKeys = {
       "subject": "Geografía"
     },
     "103": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "104": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "105": {
@@ -935,31 +935,31 @@ export const answerKeys = {
       "subject": "Física"
     },
     "106": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "107": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Física"
     },
     "108": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "109": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "110": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "111": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "112": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "113": {
@@ -967,7 +967,7 @@ export const answerKeys = {
       "subject": "Física"
     },
     "114": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "115": {
@@ -975,7 +975,7 @@ export const answerKeys = {
       "subject": "Física"
     },
     "116": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "117": {
@@ -987,7 +987,7 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "119": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     },
     "120": {
@@ -995,15 +995,15 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "121": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "122": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "123": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Formación cívica y ética"
     },
     "124": {
@@ -1015,11 +1015,11 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "126": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "127": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     },
     "128": {
@@ -1029,11 +1029,11 @@ export const answerKeys = {
   },
   "exam-3": {
     "1": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "2": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "3": {
@@ -1041,35 +1041,35 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "4": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "5": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "6": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "7": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "8": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "9": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "10": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "11": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "12": {
@@ -1081,11 +1081,11 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "14": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "15": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "16": {
@@ -1097,19 +1097,19 @@ export const answerKeys = {
       "subject": "Biología"
     },
     "18": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "19": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Biología"
     },
     "20": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Biología"
     },
     "21": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "22": {
@@ -1121,7 +1121,7 @@ export const answerKeys = {
       "subject": "Biología"
     },
     "24": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "25": {
@@ -1129,35 +1129,35 @@ export const answerKeys = {
       "subject": "Biología"
     },
     "26": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Biología"
     },
     "27": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Biología"
     },
     "28": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "29": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Español"
     },
     "30": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "31": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "32": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Español"
     },
     "33": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "34": {
@@ -1165,7 +1165,7 @@ export const answerKeys = {
       "subject": "Español"
     },
     "35": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Español"
     },
     "36": {
@@ -1177,27 +1177,27 @@ export const answerKeys = {
       "subject": "Español"
     },
     "38": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Español"
     },
     "39": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "40": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "41": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Química"
     },
     "42": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "43": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Química"
     },
     "44": {
@@ -1205,11 +1205,11 @@ export const answerKeys = {
       "subject": "Química"
     },
     "45": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Química"
     },
     "46": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Química"
     },
     "47": {
@@ -1217,27 +1217,27 @@ export const answerKeys = {
       "subject": "Química"
     },
     "48": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "49": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Química"
     },
     "50": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "51": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "52": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Química"
     },
     "53": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia universal"
     },
     "54": {
@@ -1245,11 +1245,11 @@ export const answerKeys = {
       "subject": "Historia universal"
     },
     "55": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia universal"
     },
     "56": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia universal"
     },
     "57": {
@@ -1257,39 +1257,39 @@ export const answerKeys = {
       "subject": "Historia universal"
     },
     "58": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia universal"
     },
     "59": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia de México"
     },
     "60": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia de México"
     },
     "61": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia de México"
     },
     "62": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia de México"
     },
     "63": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia de México"
     },
     "64": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia de México"
     },
     "65": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "66": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "67": {
@@ -1301,7 +1301,7 @@ export const answerKeys = {
       "subject": "Matemáticas"
     },
     "69": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "70": {
@@ -1309,31 +1309,31 @@ export const answerKeys = {
       "subject": "Matemáticas"
     },
     "71": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "72": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "73": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "74": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "75": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "76": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "77": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "78": {
@@ -1341,11 +1341,11 @@ export const answerKeys = {
       "subject": "Habilidad verbal"
     },
     "79": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "80": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "81": {
@@ -1357,35 +1357,35 @@ export const answerKeys = {
       "subject": "Habilidad verbal"
     },
     "83": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "84": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "85": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "86": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "87": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "88": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "89": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "90": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "91": {
@@ -1397,35 +1397,35 @@ export const answerKeys = {
       "subject": "Habilidad verbal"
     },
     "93": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Geografía"
     },
     "94": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "95": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "96": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "97": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "98": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "99": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "100": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "101": {
@@ -1453,35 +1453,35 @@ export const answerKeys = {
       "subject": "Física"
     },
     "107": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "108": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Física"
     },
     "109": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Física"
     },
     "110": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "111": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Física"
     },
     "112": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "113": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "114": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Física"
     },
     "115": {
@@ -1489,11 +1489,11 @@ export const answerKeys = {
       "subject": "Física"
     },
     "116": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Física"
     },
     "117": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "118": {
@@ -1501,7 +1501,7 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "119": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     },
     "120": {
@@ -1509,11 +1509,11 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "121": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "122": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "123": {
@@ -1525,7 +1525,7 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "125": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Formación cívica y ética"
     },
     "126": {
@@ -1537,21 +1537,21 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "128": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     }
   },
   "exam-4": {
     "1": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "2": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "3": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "4": {
@@ -1559,59 +1559,59 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "5": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "6": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "7": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "8": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "9": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "10": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "11": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "12": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "13": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "14": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "15": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "16": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "17": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "18": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Biología"
     },
     "19": {
@@ -1619,15 +1619,15 @@ export const answerKeys = {
       "subject": "Biología"
     },
     "20": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "21": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Biología"
     },
     "22": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Biología"
     },
     "23": {
@@ -1635,7 +1635,7 @@ export const answerKeys = {
       "subject": "Biología"
     },
     "24": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "25": {
@@ -1643,11 +1643,11 @@ export const answerKeys = {
       "subject": "Biología"
     },
     "26": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "27": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Biología"
     },
     "28": {
@@ -1659,11 +1659,11 @@ export const answerKeys = {
       "subject": "Español"
     },
     "30": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Español"
     },
     "31": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "32": {
@@ -1671,15 +1671,15 @@ export const answerKeys = {
       "subject": "Español"
     },
     "33": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Español"
     },
     "34": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "35": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Español"
     },
     "36": {
@@ -1687,15 +1687,15 @@ export const answerKeys = {
       "subject": "Español"
     },
     "37": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "38": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "39": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Español"
     },
     "40": {
@@ -1703,7 +1703,7 @@ export const answerKeys = {
       "subject": "Español"
     },
     "41": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Química"
     },
     "42": {
@@ -1711,7 +1711,7 @@ export const answerKeys = {
       "subject": "Química"
     },
     "43": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Química"
     },
     "44": {
@@ -1719,7 +1719,7 @@ export const answerKeys = {
       "subject": "Química"
     },
     "45": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "46": {
@@ -1727,7 +1727,7 @@ export const answerKeys = {
       "subject": "Química"
     },
     "47": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Química"
     },
     "48": {
@@ -1735,23 +1735,23 @@ export const answerKeys = {
       "subject": "Química"
     },
     "49": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Química"
     },
     "50": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Química"
     },
     "51": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Química"
     },
     "52": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "53": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia universal"
     },
     "54": {
@@ -1763,55 +1763,55 @@ export const answerKeys = {
       "subject": "Historia universal"
     },
     "56": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia universal"
     },
     "57": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia universal"
     },
     "58": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia universal"
     },
     "59": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia de México"
     },
     "60": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia de México"
     },
     "61": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia de México"
     },
     "62": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia de México"
     },
     "63": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia de México"
     },
     "64": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia de México"
     },
     "65": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "66": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "67": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "68": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "69": {
@@ -1819,47 +1819,47 @@ export const answerKeys = {
       "subject": "Matemáticas"
     },
     "70": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "71": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "72": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "73": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "74": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "75": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "76": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "77": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "78": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "79": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "80": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "81": {
@@ -1867,27 +1867,27 @@ export const answerKeys = {
       "subject": "Habilidad verbal"
     },
     "82": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "83": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "84": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "85": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "86": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "87": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "88": {
@@ -1895,15 +1895,15 @@ export const answerKeys = {
       "subject": "Habilidad verbal"
     },
     "89": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "90": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "91": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "92": {
@@ -1911,19 +1911,19 @@ export const answerKeys = {
       "subject": "Habilidad verbal"
     },
     "93": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Geografía"
     },
     "94": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "95": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "96": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Geografía"
     },
     "97": {
@@ -1931,35 +1931,35 @@ export const answerKeys = {
       "subject": "Geografía"
     },
     "98": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "99": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "100": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "101": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "102": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "103": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "104": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "105": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "106": {
@@ -1967,11 +1967,11 @@ export const answerKeys = {
       "subject": "Física"
     },
     "107": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "108": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "109": {
@@ -1979,15 +1979,15 @@ export const answerKeys = {
       "subject": "Física"
     },
     "110": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "111": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "112": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "113": {
@@ -1999,23 +1999,23 @@ export const answerKeys = {
       "subject": "Física"
     },
     "115": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Física"
     },
     "116": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "117": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     },
     "118": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "119": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "120": {
@@ -2027,15 +2027,15 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "122": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "123": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "124": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "125": {
@@ -2043,7 +2043,7 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "126": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Formación cívica y ética"
     },
     "127": {
@@ -2051,7 +2051,7 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "128": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Formación cívica y ética"
     }
   },
@@ -2065,23 +2065,23 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "3": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "4": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "5": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "6": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "7": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "8": {
@@ -2093,7 +2093,7 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "10": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "11": {
@@ -2105,11 +2105,11 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "13": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "14": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "15": {
@@ -2117,7 +2117,7 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "16": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "17": {
@@ -2125,15 +2125,15 @@ export const answerKeys = {
       "subject": "Biología"
     },
     "18": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "19": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Biología"
     },
     "20": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Biología"
     },
     "21": {
@@ -2141,7 +2141,7 @@ export const answerKeys = {
       "subject": "Biología"
     },
     "22": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "23": {
@@ -2149,43 +2149,43 @@ export const answerKeys = {
       "subject": "Biología"
     },
     "24": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "25": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Biología"
     },
     "26": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Biología"
     },
     "27": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Biología"
     },
     "28": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "29": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Español"
     },
     "30": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Español"
     },
     "31": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Español"
     },
     "32": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "33": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Español"
     },
     "34": {
@@ -2197,7 +2197,7 @@ export const answerKeys = {
       "subject": "Español"
     },
     "36": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "37": {
@@ -2209,11 +2209,11 @@ export const answerKeys = {
       "subject": "Español"
     },
     "39": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "40": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Español"
     },
     "41": {
@@ -2221,11 +2221,11 @@ export const answerKeys = {
       "subject": "Química"
     },
     "42": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Química"
     },
     "43": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Química"
     },
     "44": {
@@ -2233,11 +2233,11 @@ export const answerKeys = {
       "subject": "Química"
     },
     "45": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "46": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Química"
     },
     "47": {
@@ -2257,19 +2257,19 @@ export const answerKeys = {
       "subject": "Química"
     },
     "51": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "52": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Química"
     },
     "53": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia universal"
     },
     "54": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia universal"
     },
     "55": {
@@ -2277,15 +2277,15 @@ export const answerKeys = {
       "subject": "Historia universal"
     },
     "56": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia universal"
     },
     "57": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia universal"
     },
     "58": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia universal"
     },
     "59": {
@@ -2297,7 +2297,7 @@ export const answerKeys = {
       "subject": "Historia de México"
     },
     "61": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia de México"
     },
     "62": {
@@ -2305,35 +2305,35 @@ export const answerKeys = {
       "subject": "Historia de México"
     },
     "63": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia de México"
     },
     "64": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia de México"
     },
     "65": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "66": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "67": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "68": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "69": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "70": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "71": {
@@ -2345,11 +2345,11 @@ export const answerKeys = {
       "subject": "Matemáticas"
     },
     "73": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "74": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "75": {
@@ -2365,19 +2365,19 @@ export const answerKeys = {
       "subject": "Habilidad verbal"
     },
     "78": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "79": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "80": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "81": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "82": {
@@ -2393,39 +2393,39 @@ export const answerKeys = {
       "subject": "Habilidad verbal"
     },
     "85": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "86": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "87": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "88": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "89": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "90": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "91": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "92": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "93": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "94": {
@@ -2433,7 +2433,7 @@ export const answerKeys = {
       "subject": "Geografía"
     },
     "95": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "96": {
@@ -2441,11 +2441,11 @@ export const answerKeys = {
       "subject": "Geografía"
     },
     "97": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "98": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "99": {
@@ -2457,7 +2457,7 @@ export const answerKeys = {
       "subject": "Geografía"
     },
     "101": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "102": {
@@ -2465,23 +2465,23 @@ export const answerKeys = {
       "subject": "Geografía"
     },
     "103": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "104": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "105": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "106": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "107": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "108": {
@@ -2489,27 +2489,27 @@ export const answerKeys = {
       "subject": "Física"
     },
     "109": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "110": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "111": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "112": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "113": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Física"
     },
     "114": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Física"
     },
     "115": {
@@ -2517,11 +2517,11 @@ export const answerKeys = {
       "subject": "Física"
     },
     "116": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "117": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "118": {
@@ -2529,23 +2529,23 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "119": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     },
     "120": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     },
     "121": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     },
     "122": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Formación cívica y ética"
     },
     "123": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "124": {
@@ -2553,11 +2553,11 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "125": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Formación cívica y ética"
     },
     "126": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Formación cívica y ética"
     },
     "127": {
@@ -2571,7 +2571,7 @@ export const answerKeys = {
   },
   "exam-6": {
     "1": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "2": {
@@ -2583,43 +2583,43 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "4": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "5": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "6": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "7": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "8": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "9": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "10": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "11": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "12": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "13": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "14": {
@@ -2627,55 +2627,55 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "15": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "16": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "17": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Biología"
     },
     "18": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "19": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Biología"
     },
     "20": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Biología"
     },
     "21": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Biología"
     },
     "22": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "23": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Biología"
     },
     "24": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Biología"
     },
     "25": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Biología"
     },
     "26": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Biología"
     },
     "27": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "28": {
@@ -2683,23 +2683,23 @@ export const answerKeys = {
       "subject": "Biología"
     },
     "29": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Español"
     },
     "30": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "31": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "32": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "33": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "34": {
@@ -2707,15 +2707,15 @@ export const answerKeys = {
       "subject": "Español"
     },
     "35": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Español"
     },
     "36": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "37": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Español"
     },
     "38": {
@@ -2723,7 +2723,7 @@ export const answerKeys = {
       "subject": "Español"
     },
     "39": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "40": {
@@ -2731,35 +2731,35 @@ export const answerKeys = {
       "subject": "Español"
     },
     "41": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Química"
     },
     "42": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "43": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Química"
     },
     "44": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Química"
     },
     "45": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Química"
     },
     "46": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Química"
     },
     "47": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Química"
     },
     "48": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Química"
     },
     "49": {
@@ -2767,99 +2767,99 @@ export const answerKeys = {
       "subject": "Química"
     },
     "50": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Química"
     },
     "51": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "52": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Química"
     },
     "53": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia universal"
     },
     "54": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia universal"
     },
     "55": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia universal"
     },
     "56": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia universal"
     },
     "57": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia universal"
     },
     "58": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia universal"
     },
     "59": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia de México"
     },
     "60": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia de México"
     },
     "61": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia de México"
     },
     "62": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia de México"
     },
     "63": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia de México"
     },
     "64": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia de México"
     },
     "65": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "66": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "67": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "68": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "69": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "70": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "71": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "72": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "73": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "74": {
@@ -2871,47 +2871,47 @@ export const answerKeys = {
       "subject": "Matemáticas"
     },
     "76": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "77": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "78": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "79": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "80": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "81": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "82": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "83": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "84": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "85": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "86": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "87": {
@@ -2923,7 +2923,7 @@ export const answerKeys = {
       "subject": "Habilidad verbal"
     },
     "89": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "90": {
@@ -2931,19 +2931,19 @@ export const answerKeys = {
       "subject": "Habilidad verbal"
     },
     "91": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "92": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "93": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Geografía"
     },
     "94": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "95": {
@@ -2951,15 +2951,15 @@ export const answerKeys = {
       "subject": "Geografía"
     },
     "96": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "97": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Geografía"
     },
     "98": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "99": {
@@ -2967,7 +2967,7 @@ export const answerKeys = {
       "subject": "Geografía"
     },
     "100": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Geografía"
     },
     "101": {
@@ -2975,11 +2975,11 @@ export const answerKeys = {
       "subject": "Geografía"
     },
     "102": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "103": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Geografía"
     },
     "104": {
@@ -2991,11 +2991,11 @@ export const answerKeys = {
       "subject": "Física"
     },
     "106": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "107": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "108": {
@@ -3003,7 +3003,7 @@ export const answerKeys = {
       "subject": "Física"
     },
     "109": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "110": {
@@ -3011,7 +3011,7 @@ export const answerKeys = {
       "subject": "Física"
     },
     "111": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Física"
     },
     "112": {
@@ -3019,11 +3019,11 @@ export const answerKeys = {
       "subject": "Física"
     },
     "113": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "114": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Física"
     },
     "115": {
@@ -3031,19 +3031,19 @@ export const answerKeys = {
       "subject": "Física"
     },
     "116": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Física"
     },
     "117": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     },
     "118": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "119": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     },
     "120": {
@@ -3051,11 +3051,11 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "121": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "122": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "123": {
@@ -3071,7 +3071,7 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "126": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "127": {
@@ -3079,37 +3079,37 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "128": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     }
   },
   "exam-7": {
     "1": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "2": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "3": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "4": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "5": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "6": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "7": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "8": {
@@ -3117,7 +3117,7 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "9": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "10": {
@@ -3129,7 +3129,7 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "12": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "13": {
@@ -3137,11 +3137,11 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "14": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "15": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "16": {
@@ -3157,15 +3157,15 @@ export const answerKeys = {
       "subject": "Biología"
     },
     "19": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "20": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Biología"
     },
     "21": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "22": {
@@ -3177,19 +3177,19 @@ export const answerKeys = {
       "subject": "Biología"
     },
     "24": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Biología"
     },
     "25": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "26": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Biología"
     },
     "27": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Biología"
     },
     "28": {
@@ -3201,15 +3201,15 @@ export const answerKeys = {
       "subject": "Español"
     },
     "30": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Español"
     },
     "31": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "32": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "33": {
@@ -3217,27 +3217,27 @@ export const answerKeys = {
       "subject": "Español"
     },
     "34": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Español"
     },
     "35": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Español"
     },
     "36": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Español"
     },
     "37": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Español"
     },
     "38": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "39": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Español"
     },
     "40": {
@@ -3245,15 +3245,15 @@ export const answerKeys = {
       "subject": "Español"
     },
     "41": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "42": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Química"
     },
     "43": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Química"
     },
     "44": {
@@ -3261,15 +3261,15 @@ export const answerKeys = {
       "subject": "Química"
     },
     "45": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Química"
     },
     "46": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Química"
     },
     "47": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "48": {
@@ -3277,11 +3277,11 @@ export const answerKeys = {
       "subject": "Química"
     },
     "49": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "50": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "51": {
@@ -3289,7 +3289,7 @@ export const answerKeys = {
       "subject": "Química"
     },
     "52": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "53": {
@@ -3297,7 +3297,7 @@ export const answerKeys = {
       "subject": "Historia universal"
     },
     "54": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia universal"
     },
     "55": {
@@ -3305,35 +3305,35 @@ export const answerKeys = {
       "subject": "Historia universal"
     },
     "56": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia universal"
     },
     "57": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia universal"
     },
     "58": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia universal"
     },
     "59": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia de México"
     },
     "60": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia de México"
     },
     "61": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia de México"
     },
     "62": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia de México"
     },
     "63": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia de México"
     },
     "64": {
@@ -3341,11 +3341,11 @@ export const answerKeys = {
       "subject": "Historia de México"
     },
     "65": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "66": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "67": {
@@ -3353,15 +3353,15 @@ export const answerKeys = {
       "subject": "Matemáticas"
     },
     "68": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "69": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "70": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "71": {
@@ -3369,23 +3369,23 @@ export const answerKeys = {
       "subject": "Matemáticas"
     },
     "72": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "73": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "74": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "75": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "76": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "77": {
@@ -3393,19 +3393,19 @@ export const answerKeys = {
       "subject": "Habilidad verbal"
     },
     "78": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "79": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "80": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "81": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "82": {
@@ -3413,23 +3413,23 @@ export const answerKeys = {
       "subject": "Habilidad verbal"
     },
     "83": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "84": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "85": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "86": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "87": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "88": {
@@ -3449,15 +3449,15 @@ export const answerKeys = {
       "subject": "Habilidad verbal"
     },
     "92": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "93": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "94": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "95": {
@@ -3465,15 +3465,15 @@ export const answerKeys = {
       "subject": "Geografía"
     },
     "96": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Geografía"
     },
     "97": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "98": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Geografía"
     },
     "99": {
@@ -3481,11 +3481,11 @@ export const answerKeys = {
       "subject": "Geografía"
     },
     "100": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "101": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "102": {
@@ -3493,11 +3493,11 @@ export const answerKeys = {
       "subject": "Geografía"
     },
     "103": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "104": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "105": {
@@ -3505,31 +3505,31 @@ export const answerKeys = {
       "subject": "Física"
     },
     "106": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "107": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Física"
     },
     "108": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "109": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "110": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "111": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "112": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "113": {
@@ -3537,7 +3537,7 @@ export const answerKeys = {
       "subject": "Física"
     },
     "114": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "115": {
@@ -3545,7 +3545,7 @@ export const answerKeys = {
       "subject": "Física"
     },
     "116": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "117": {
@@ -3557,23 +3557,23 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "119": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     },
     "120": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     },
     "121": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "122": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "123": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Formación cívica y ética"
     },
     "124": {
@@ -3585,29 +3585,29 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "126": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Formación cívica y ética"
     },
     "127": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     },
     "128": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     }
   },
   "exam-8": {
     "1": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "2": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "3": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "4": {
@@ -3623,15 +3623,15 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "7": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "8": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "9": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "10": {
@@ -3639,15 +3639,15 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "11": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "12": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "13": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad matemática"
     },
     "14": {
@@ -3655,15 +3655,15 @@ export const answerKeys = {
       "subject": "Habilidad matemática"
     },
     "15": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad matemática"
     },
     "16": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad matemática"
     },
     "17": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Biología"
     },
     "18": {
@@ -3671,11 +3671,11 @@ export const answerKeys = {
       "subject": "Biología"
     },
     "19": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "20": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Biología"
     },
     "21": {
@@ -3683,31 +3683,31 @@ export const answerKeys = {
       "subject": "Biología"
     },
     "22": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Biología"
     },
     "23": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "24": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Biología"
     },
     "25": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Biología"
     },
     "26": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Biología"
     },
     "27": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Biología"
     },
     "28": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Biología"
     },
     "29": {
@@ -3715,7 +3715,7 @@ export const answerKeys = {
       "subject": "Español"
     },
     "30": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Español"
     },
     "31": {
@@ -3727,19 +3727,19 @@ export const answerKeys = {
       "subject": "Español"
     },
     "33": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Español"
     },
     "34": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Español"
     },
     "35": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Español"
     },
     "36": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Español"
     },
     "37": {
@@ -3751,27 +3751,27 @@ export const answerKeys = {
       "subject": "Español"
     },
     "39": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "40": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Español"
     },
     "41": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Química"
     },
     "42": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "43": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "44": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "45": {
@@ -3779,7 +3779,7 @@ export const answerKeys = {
       "subject": "Química"
     },
     "46": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "47": {
@@ -3787,35 +3787,35 @@ export const answerKeys = {
       "subject": "Química"
     },
     "48": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Química"
     },
     "49": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "50": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Química"
     },
     "51": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Química"
     },
     "52": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Química"
     },
     "53": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia universal"
     },
     "54": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia universal"
     },
     "55": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia universal"
     },
     "56": {
@@ -3835,31 +3835,31 @@ export const answerKeys = {
       "subject": "Historia de México"
     },
     "60": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Historia de México"
     },
     "61": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia de México"
     },
     "62": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia de México"
     },
     "63": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Historia de México"
     },
     "64": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Historia de México"
     },
     "65": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "66": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Matemáticas"
     },
     "67": {
@@ -3867,35 +3867,35 @@ export const answerKeys = {
       "subject": "Matemáticas"
     },
     "68": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "69": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "70": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "71": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "72": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "73": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "74": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Matemáticas"
     },
     "75": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Matemáticas"
     },
     "76": {
@@ -3903,75 +3903,75 @@ export const answerKeys = {
       "subject": "Matemáticas"
     },
     "77": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "78": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "79": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "80": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "81": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "82": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "83": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "84": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "85": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "86": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "87": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "88": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "89": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Habilidad verbal"
     },
     "90": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "91": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Habilidad verbal"
     },
     "92": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Habilidad verbal"
     },
     "93": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "94": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "95": {
@@ -3979,31 +3979,31 @@ export const answerKeys = {
       "subject": "Geografía"
     },
     "96": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Geografía"
     },
     "97": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Geografía"
     },
     "98": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "99": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "100": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "101": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Geografía"
     },
     "102": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Geografía"
     },
     "103": {
@@ -4011,7 +4011,7 @@ export const answerKeys = {
       "subject": "Geografía"
     },
     "104": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Geografía"
     },
     "105": {
@@ -4019,35 +4019,35 @@ export const answerKeys = {
       "subject": "Física"
     },
     "106": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Física"
     },
     "107": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Física"
     },
     "108": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "109": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "110": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Física"
     },
     "111": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "112": {
-      "correct": "A",
+      "correct": "D",
       "subject": "Física"
     },
     "113": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "114": {
@@ -4059,11 +4059,11 @@ export const answerKeys = {
       "subject": "Física"
     },
     "116": {
-      "correct": "A",
+      "correct": "B",
       "subject": "Física"
     },
     "117": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     },
     "118": {
@@ -4075,27 +4075,27 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "120": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     },
     "121": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     },
     "122": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     },
     "123": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     },
     "124": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     },
     "125": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     },
     "126": {
@@ -4107,7 +4107,7 @@ export const answerKeys = {
       "subject": "Formación cívica y ética"
     },
     "128": {
-      "correct": "A",
+      "correct": "C",
       "subject": "Formación cívica y ética"
     }
   },
